@@ -1,6 +1,6 @@
 **NoteKeeper - Your Ultimate Note-Taking Solution**
 
-![NoteKeeper Logo]("https://d29fhpw069ctt2.cloudfront.net/clipart/105048/preview/Sephr_Notepad_with_Text_and_Pencil_1_preview_17c5.png")
+https://github.com/shivamu509/NoteKeeper/assets/83783169/56d08f42-b325-4658-9e3b-1ee3af4fd228
 
 Welcome to NoteKeeper, a feature-rich web application that redefines note-taking with its seamless user experience and powerful organization capabilities.
 
