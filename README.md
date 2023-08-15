@@ -1,6 +1,10 @@
 **NoteKeeper - Your Ultimate Note-Taking Solution**
 
-https://github.com/shivamu509/NoteKeeper/assets/83783169/56d08f42-b325-4658-9e3b-1ee3af4fd228
+
+
+https://github.com/shivamu509/NoteKeeper/assets/83783169/895dce6c-f21f-4085-9e21-afa525ca9d90
+
+
 
 Welcome to NoteKeeper, a feature-rich web application that redefines note-taking with its seamless user experience and powerful organization capabilities.
 
