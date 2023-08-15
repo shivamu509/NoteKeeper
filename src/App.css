@@ -1,0 +1,15 @@
+.dark{
+  background-color: #282c34;
+  color: white;
+}
+
+.grey{
+  background-color: rgb(37, 37, 48);
+  color: rgb(255, 235, 235);
+}
+
+.App {
+  text-align: center; 
+  margin: 0;
+  padding: 0;
+}
