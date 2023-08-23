@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Navbar from './components/Header';
 import Notes from './components/Notes';
 
-
 function App() {
   return (
     <div className="App d-flex flex-column min-vh-100">
@@ -15,7 +14,7 @@ function App() {
       <Route path='/' element={<Notes/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
-      {/* <Route path="*" element={<Notes/>} />  */}
+      <Route path="*" element={<Notes/>} /> 
     </Routes>
       <Footer/>
     </div>

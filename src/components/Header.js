@@ -4,8 +4,11 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggleDark, setToggleDark] = useState(false);
-  const loc = useLocation().pathname
-
+  let loc = useLocation().pathname
+  const arr = ['/','/about','/contact']
+  let chk = arr.filter((val)=>val===loc)
+  if(chk.length===0) loc='/'
+  
   useEffect(() => {
     let toggleBlack = document.querySelectorAll('.note');
     let toggleGrey = document.querySelectorAll('.note-grey');
@@ -21,7 +24,8 @@ const Navbar = () => {
     document.getElementById('/').classList.remove('active');
     document.getElementById('/about').classList.remove('active');
     document.getElementById('/contact').classList.remove('active');
-    document.getElementById(loc).classList.add('active');
+    let l = document.getElementById(loc).classList
+    if(l) l.add('active');
   }, [toggleDark,loc]);
   
   return (
